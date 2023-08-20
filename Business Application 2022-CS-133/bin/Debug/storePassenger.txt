@@ -1,0 +1,10 @@
+usman,421312,432212,121,Isl,Lah,1,Local
+Noman,4213,1232343,433232,Lah,isl,3,business
+Tayyab,1234,432423,3242342,Qatar,Pakistan,2,Business
+usman,421312,432212,121,Isl,Lah,1,Local
+Noman,4213,1232343,433232,Lah,isl,3,business
+Tayyab,1234,432423,3242342,Qatar,Pakistan,2,Business
+usman,421312,432212,121,Isl,Lah,1,Local
+Noman,4213,1232343,433232,Lah,isl,3,business
+Tayyab,1234,432423,3242342,Qatar,Pakistan,2,Business
+Usman,1234,43222,3242343,Pakistan,London,2,business

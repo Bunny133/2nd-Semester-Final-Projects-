@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="My_Game.BL.Firing">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEAQgABAAAQAAEAAAAEABAAAAAQAAAAAIAAABEAAA=</HashCode>
+      <FileName>BL\Firing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space_Shooters.BL.Game">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgBAABAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space_Shooters.BL.Game_Cell">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAIAAEQAQABAAIAAACCAABAgAAAQAAIAAAA=</HashCode>
+      <FileName>BL\Game_Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space_Shooters.BL.Game_Grid">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAABAAAACAACAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>BL\Game_Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space_Shooters.BL.Game_Object">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAACAAAAECABgBAgAQAAAAAAAAA=</HashCode>
+      <FileName>BL\Game_Object.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space_Shooters.BL.Ghost">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Ghost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space_Shooters.BL.Horizontal_Ghost">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAIAAAAIAAAAKAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Horizontal_Ghost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My_Game.BL.Random_Ghost">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAIAAAAKAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Random_Ghost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space_Shooters.BL.Space_Shooter_Player">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAACQIAAAAAAQAAAAAAAAgAAAA=</HashCode>
+      <FileName>BL\Space_Shooter_Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Space_Shooters.BL.Game_Direction">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>BL\Game_Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Space_Shooters.BL.Game_Object_Type">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAMACAAAAQAAAABAAAAEAAAAAAABAAAAAAA=</HashCode>
+      <FileName>BL\Game_Object_Type.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

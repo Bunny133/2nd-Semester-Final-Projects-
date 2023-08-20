@@ -1,0 +1,7 @@
+Tayyab,Targarian,Admin
+Salman,qwe,Customer
+Hadia,Moosa,Admin
+noor,123,Customer
+Noman,321,Customer
+taha,1234,Customer
+

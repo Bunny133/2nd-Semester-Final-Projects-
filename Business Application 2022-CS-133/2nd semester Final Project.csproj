@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF641063-38F6-48FF-B490-FD42F9CBAE23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_2nd_semester_Final_Project</RootNamespace>
+    <AssemblyName>2nd semester Final Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFlightfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFlightfrm.Designer.cs">
+      <DependentUpon>AddFlightfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDL.cs" />
+    <Compile Include="AdminFlightFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFlightFrm.Designer.cs">
+      <DependentUpon>AdminFlightFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUI.cs" />
+    <Compile Include="Admin.cs" />
+    <Compile Include="CancelReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelReservationForm.Designer.cs">
+      <DependentUpon>CancelReservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBack.cs" />
+    <Compile Include="FeedbackDL.cs" />
+    <Compile Include="FeedBackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedBackForm.Designer.cs">
+      <DependentUpon>FeedBackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FLightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FLightForm.Designer.cs">
+      <DependentUpon>FLightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Credentials.cs" />
+    <Compile Include="IdentityFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdentityFrm.Designer.cs">
+      <DependentUpon>IdentityFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUserDL.cs" />
+    <Compile Include="PassengerDataFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassengerDataFrm.Designer.cs">
+      <DependentUpon>PassengerDataFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerDL.cs" />
+    <Compile Include="PassengerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassengerForm.Designer.cs">
+      <DependentUpon>PassengerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerTicketSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassengerTicketSection.Designer.cs">
+      <DependentUpon>PassengerTicketSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerUI.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Passenger.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveFlightFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveFlightFrm.Designer.cs">
+      <DependentUpon>RemoveFlightFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchedFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchedFlight.Designer.cs">
+      <DependentUpon>SearchedFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchFllighFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchFllighFrm.Designer.cs">
+      <DependentUpon>SearchFllighFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchUpdateFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchUpdateFrm.Designer.cs">
+      <DependentUpon>SearchUpdateFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SigninForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SigninForm.Designer.cs">
+      <DependentUpon>SigninForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SIgnupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIgnupForm.Designer.cs">
+      <DependentUpon>SIgnupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketForm.Designer.cs">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateFlightFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateFlightFrm.Designer.cs">
+      <DependentUpon>UpdateFlightFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewfeedbackFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewfeedbackFrm.Designer.cs">
+      <DependentUpon>ViewfeedbackFrm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddFlightfrm.resx">
+      <DependentUpon>AddFlightfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFlightFrm.resx">
+      <DependentUpon>AdminFlightFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelReservationForm.resx">
+      <DependentUpon>CancelReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedBackForm.resx">
+      <DependentUpon>FeedBackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLightForm.resx">
+      <DependentUpon>FLightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdentityFrm.resx">
+      <DependentUpon>IdentityFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassengerDataFrm.resx">
+      <DependentUpon>PassengerDataFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassengerForm.resx">
+      <DependentUpon>PassengerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassengerTicketSection.resx">
+      <DependentUpon>PassengerTicketSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveFlightFrm.resx">
+      <DependentUpon>RemoveFlightFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchedFlight.resx">
+      <DependentUpon>SearchedFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchFllighFrm.resx">
+      <DependentUpon>SearchFllighFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchUpdateFrm.resx">
+      <DependentUpon>SearchUpdateFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SigninForm.resx">
+      <DependentUpon>SigninForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SIgnupForm.resx">
+      <DependentUpon>SIgnupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketForm.resx">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateFlightFrm.resx">
+      <DependentUpon>UpdateFlightFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewfeedbackFrm.resx">
+      <DependentUpon>ViewfeedbackFrm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\Travel-Airplane-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane-flight-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bxs-dashboard-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office-620822_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-concept-illustration_114360-399 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-travelers-holding-briefcase_1262-21211.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-booking-traveling-plane-flight-concept_53876-133675 %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-travel-background_23-2148063083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-travelers-holding-briefcase_1262-212111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane-isolated-blank-wall_1048-14174.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assests\hidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Assests\eye.jpg" />
+    <None Include="Resources\icons8-logout-24 %281%29.png" />
+    <None Include="Resources\icons8-logout-24.png" />
+    <None Include="Resources\icons8-logout-32.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\download %281%29.png" />
+    <None Include="Resources\download %282%29.png" />
+    <None Include="Resources\download %283%29.png" />
+    <None Include="Resources\download %284%29.png" />
+    <Content Include="Resources\eye.jpg" />
+    <None Include="Resources\logout1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
